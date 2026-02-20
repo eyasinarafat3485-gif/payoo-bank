@@ -16,7 +16,7 @@ document.getElementById('btn-login').addEventListener('click', function(){
     if(contactNumber=='01234567890' && contactPin=='1234'){
         // 3.1 true:::>> alert> homepage
         alert('Login Success')
-        window.location.assign("/home.html")
+        window.location.assign("home.html")
     }
     // 3.2 false:::>> alert> return
     else{
